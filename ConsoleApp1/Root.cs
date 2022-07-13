@@ -15,4 +15,10 @@ public class Root
     public int id { get; set; }
     public string name { get; set; }
     public int cod { get; set; }
+    
+    
+    public int message { get; set; }
+    public int cnt { get; set; }
+    public List<List> list { get; set; }
+    public City city { get; set; }
 }
